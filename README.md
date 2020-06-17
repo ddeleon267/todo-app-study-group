@@ -2,7 +2,7 @@ REST => Representation State Transfer
 => set of conventions for structuring our ROUTES and mapping them to CRUD actions (Create, Read, Update, Delete).
 
 | HTTP VERB | ROUTE | ACTION   | CRUD Function |
-| ------------- |:-------------:| ----------- | ------------------- |
+| ------------- |-------------| ----------- | ------------------- |
 | GET |  /todos  | index | Read |
 | GET | /todos/:id | show | Read |
 | GET | /todos/new | new | Create |

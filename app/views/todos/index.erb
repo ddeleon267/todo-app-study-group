@@ -1,0 +1,12 @@
+<h2>Todos</h2>
+
+<% @todos.each do |todo| %>
+    <p><a href="/todos/<%=todo.id%>"><%=todo.content%></a></p>
+<% end %>
+
+<% # You can do ruby comments in your views like this %>
+<!-- Or you can do html comments like this -->
+
+<!-- Notice how I'm using an anchor tag above to handle navigation.
+The user can click the link, which takes them to the GET '/todos/:id'
+route - so the user doesn't have to worry about typing that url manually -->

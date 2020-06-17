@@ -1,0 +1,14 @@
+<h2>Make a todo!</h2>
+
+<form method="POST" action="/todos">
+    <input type="text" name="content"/>
+    <input type="submit">
+</form>
+
+<% # You can do ruby comments in your views like this %>
+<!-- Or you can do html comments like this -->
+
+<% # the key here is that we need to tell our form what type of request %>
+<% # to make (method), and  where to send it (action) %>
+<% # which means there MUST be a post '/todos' route in the controller %>
+<% # that receives the form data %>
